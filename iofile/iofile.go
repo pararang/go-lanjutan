@@ -33,4 +33,17 @@ func main() {
 		fmt.Println("Email:", d.Email)
 		fmt.Println("---------------")
 	}
+
+	FreeText()
+}
+
+func FreeText(){
+	content, err := ioutil.ReadFile("puisi.txt")
+	if err != nil {
+		fmt.Println("Error reading file:", err)
+		return
+	}
+
+	fmt.Println("File contents:")
+	fmt.Println(string(content))
 }
