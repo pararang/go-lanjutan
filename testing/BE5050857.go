@@ -2,7 +2,7 @@ package mytesting
 
 // import "strings"
 
-// func HomeworkBE4855066(input string) map[string]int {
+// func HomeworkBE5050857(input string) map[string]int {
 // 	if input == "" {
 // 		return nil
 // 	}

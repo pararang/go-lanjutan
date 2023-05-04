@@ -5,7 +5,7 @@ package mytesting
 // 	"unicode"
 // )
 
-// func HomeworkBE4856996(input string) map[string]int {
+// func HomeworkBE5180220(input string) map[string]int {
 // 	if input == "" {
 // 		return nil
 // 	}
