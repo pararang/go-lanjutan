@@ -14,8 +14,14 @@ Homework:
 
     `go test ./... -coverprofile coverage.out && go tool cover -func coverage.out`
     
-    hasilnya akan menunjukkan coverage per fungsi:
-
+    hasilnya akan menunjukkan coverage per fungsi, seperti contoh berikut:
+    ```bash
+    ok      unittest        0.001s  coverage: 47.1% of statements
+    unittest/BE4284458.go:3:        HomeworkBE4284458       0.0%
+    unittest/converter.go:9:        ToMeter                 100.0%
+    unittest/converter.go:27:       main                    0.0%
+    total:                          (statements)            47.1%
+    ```
 
 Note:
 - tidak boleh ada perubahan logic pada file dimana implementasi fungsinya berada
