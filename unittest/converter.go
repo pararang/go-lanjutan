@@ -23,6 +23,3 @@ func (w Wide) ToMeter() float64 {
 
 	return result
 }
-
-func main() {
-}
