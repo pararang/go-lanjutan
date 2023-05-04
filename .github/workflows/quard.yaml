@@ -36,13 +36,6 @@ jobs:
         with:
           name: code covarege report
           path: coverage.out
-      - name: Setup gcloud cli
-        uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
-        with:
-          version: '290.0.1'
-          project_id: adikastyle-dev
-          service_account_key: ${{ secrets.GCLOUD_SERVICE_KEY }}
-          export_default_credentials: true
       - name: Generate covarege Status
         run: |
           set -x
