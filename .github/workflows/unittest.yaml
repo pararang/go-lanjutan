@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'unittest/*.go'
+      - '.github/**/*.yaml'
   pull_request:
     types: [opened, reopened]
 
