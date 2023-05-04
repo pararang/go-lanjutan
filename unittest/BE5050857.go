@@ -19,6 +19,7 @@ func HomeworkBE5050857(input string) map[string]int {
 		if wordCount[word] == 5 {
 			continue
 		}
+		
         wordCount[word]++
     }
 
