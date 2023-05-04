@@ -2,8 +2,8 @@ name: Go package
 
 on:
   push:
-    branches:
-      - main
+    paths:
+      - 'unittest/*.go'
   pull_request:
     types: [opened, reopened]
 
