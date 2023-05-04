@@ -1,8 +1,8 @@
-package mytesting
+package unittest
 
 // import "fmt"
 
-// func HomeworkBE5011795(input string) (bool, error) {
+// func HomeworkBE4905186(input string) (bool, error) {
 // 	countChars := len(input)
 // 	if countChars < 3 {
 // 		return false, fmt.Errorf("total character cant be less than 3")

@@ -1,7 +1,7 @@
-package mytesting
+package unittest
 
 
-// func HomeworkBE5132238(number int) int {
+// func HomeworkBE4942576(number int) int {
 // 	if number > 8 {
 // 		return -1
 // 	}
@@ -11,5 +11,5 @@ package mytesting
 //     if number == 0 {
 //         return 1
 //     }
-//     return number * HomeworkBE5132238(number-1)
+//     return number * HomeworkBE4942576(number-1)
 // }

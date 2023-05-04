@@ -1,6 +1,6 @@
-package mytesting
+package unittest
 
-// func HomeworkBE4856996(numbers ...int) int {
+// func HomeworkBE5226750(numbers ...int) int {
 //     sum := 0
 //     for _, number := range numbers {
 // 		if number == 0 {

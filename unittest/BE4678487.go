@@ -1,8 +1,8 @@
-package mytesting
+package unittest
 
 // import "strings"
 
-// func HomeworkBE5144640(input string) int {
+// func HomeworkBE4678487(input string) int {
 // 	if len(input) > 26 {
 // 		return -1
 // 	}

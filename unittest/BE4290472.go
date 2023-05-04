@@ -1,8 +1,8 @@
-package mytesting
+package unittest
 
 // import "math"
 
-// func HomeworkBE5188276(number int) bool {
+// func HomeworkBE4290472(number int) bool {
 // 	if number > 50 {
 // 		return false
 // 	}

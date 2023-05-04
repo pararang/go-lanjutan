@@ -1,4 +1,4 @@
-package mytesting
+package unittest
 
 import "testing"
 

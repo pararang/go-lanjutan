@@ -1,4 +1,4 @@
-package mytesting
+package unittest
 
 // func HomeworkBE4898539(input string) string {
 //     if input == "" {

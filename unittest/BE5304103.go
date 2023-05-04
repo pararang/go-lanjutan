@@ -1,4 +1,4 @@
-package mytesting
+package unittest
 
 // func HomeworkBE5304103(numbers []int) float64 {
 // 	itemCount := len(numbers)

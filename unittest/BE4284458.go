@@ -1,6 +1,6 @@
-package mytesting
+package unittest
 
-// func HomeworkBE5145264(numbers []int) int {
+// func HomeworkBE4284458(numbers []int) int {
 // 	if len(numbers) > 25 {
 // 		return -1
 // 	}
