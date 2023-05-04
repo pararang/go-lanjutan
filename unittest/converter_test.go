@@ -30,17 +30,17 @@ func TestWide_ToMeter(t *testing.T) {
 		}
 	})
 
-	// t.Run("should convert from cm correctly", func(t *testing.T) {
-	// 	w := Wide{
-	// 		Value: 200,
-	// 		Unit:  "cm",
-	// 	}
+	t.Run("should convert from cm correctly", func(t *testing.T) {
+		w := Wide{
+			Value: 200,
+			Unit:  "cm",
+		}
 
-	// 	want := 2.0
+		want := 2.0
 
-	// 	got := w.ToMeter()
-	// 	if got != want {
-	// 		t.Errorf("Wide.ToMeter() = %v, want %v", got, want)
-	// 	}
-	// })
+		got := w.ToMeter()
+		if got != want {
+			t.Errorf("Wide.ToMeter() = %v, want %v", got, want)
+		}
+	})
 }
