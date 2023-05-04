@@ -2,9 +2,8 @@ name: Go package
 
 on:
   push:
-    paths:
-      - 'unittest/*.go'
-      - '.github/**/*.yaml'
+    branches:
+      - master
   pull_request:
     types: [opened, reopened]
 
@@ -19,9 +18,6 @@ jobs:
         uses: actions/setup-go@v4
         with:
           go-version: '1.18'
-
-      # - name: Build
-      #   run: go build -v ./...
 
       - name: Test
         run: cd unittest && go test ./... -coverprofile coverage.out && go tool cover -func coverage.out
