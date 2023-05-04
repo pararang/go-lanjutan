@@ -6,7 +6,7 @@ package unittest
 // 	if len(input) > 26 {
 // 		return -1
 // 	}
-	
+
 //     vowels := "aeiouAEIOU"
 //     count := 0
 //     for _, character := range input {

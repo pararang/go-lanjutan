@@ -1,6 +1,5 @@
 package unittest
 
-
 // func HomeworkBE4942576(number int) int {
 // 	if number > 8 {
 // 		return -1
