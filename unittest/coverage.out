@@ -1,9 +1,0 @@
-mode: set
-unittest/converter.go:9.33,12.18 2 1
-unittest/converter.go:16.2,16.19 1 1
-unittest/converter.go:20.2,20.20 1 1
-unittest/converter.go:24.2,24.15 1 1
-unittest/converter.go:12.18,14.3 1 1
-unittest/converter.go:16.19,18.3 1 1
-unittest/converter.go:20.20,22.3 1 1
-unittest/converter.go:27.14,28.2 0 0
