@@ -1,8 +1,9 @@
 Umum:
-1. Fork repo ini ke github masing2
+1. Clone repo ini dan buat branch sesuai dengan nama masing2
 2. kerjakan pada repo Masing-masing
-3. Buat PR ke repo sumber (repo ini), arahkan ke branch master
-4. Batas akhir pengumpulan: 6 Mei 2023, Pukul 13.00 WIB
+3. Commit dan push perubahan hasil pengerjaan
+4. Buat PR ke bracnh master
+5. Batas akhir pengumpulan: 6 Mei 2023, Pukul 13.00 WIB
 
 
 Homework:
