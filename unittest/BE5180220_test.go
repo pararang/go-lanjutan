@@ -11,20 +11,20 @@ func TestHomeworkBE5180220(t *testing.T) {
 		expectedMap map[string]int
 	}{
 		{
-			input:       "hello",
-			expectedMap: map[string]int{"H": 1, "E": 1, "L": 2, "O": 1},
-		},
-		{
-			input:       "Hello World!",
-			expectedMap: map[string]int{"H": 1, "E": 1, "L": 3, "O": 2, "W": 1, "R": 1, "D": 1},
-		},
-		{
 			input:       "",
 			expectedMap: nil,
 		},
 		{
 			input:       "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz",
 			expectedMap: map[string]int{"abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz": 1},
+		},
+		{
+			input:       "hello",
+			expectedMap: map[string]int{"H": 1, "E": 1, "L": 2, "O": 1},
+		},
+		{
+			input:       "Hello World!",
+			expectedMap: map[string]int{"H": 1, "E": 1, "L": 3, "O": 2, "W": 1, "R": 1, "D": 1},
 		},
 	}
 
